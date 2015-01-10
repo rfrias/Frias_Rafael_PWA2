@@ -1,0 +1,16 @@
+body {
+	 width: 960px;
+	 background: #06163B;
+	 }
+#bodyWrapper {
+		width: 80%;
+		margin: 0 auto;
+		background: #efefef;
+		border-radius: 12px;
+		padding-bottom: 50px;
+		}
+#headerWrapperIndex {
+		background: #1B75BB;
+		border-radius: 12px 12px 0px 0px;
+		margin: 0 auto;
+		}
