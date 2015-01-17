@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gamers Orbit</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<img src="images/Go2.png" alt="Gamers Orbit Logo" style="width:200px;height:200px; float: left;">
+<div id="bodyWrapper">
+	<div id="headerWrapperProjects">
+    	<div class="row">
+        <nav class="navbar navbar-default" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li class="headerBox"><button class="home">Home</button></li>
+                    <li class="headerBox"><button class="profile">Profile - coming soon</button></li>
+                    <li class="headerBox"><button class="dashboard">Dashboard</button></li>
+                     
+                </ul>
+        </nav>
+    	</div> 
+       
+    </div>
+	<div id="projectIntroWrapper">
+        <header>
+            <div class="userid">Welcome User:
+            </div>
+            
+            <div class="logoutbox">
+                <input name="logOut" type="button" id="logOut" value="Sign Out"/>
+            </div>
+        </header>
+            
+            <br>
+            <br>
+            
+            <div class="welcome">
+                <p><a href="#" class="modalClick" ><input name="add" type="button" id="addProject" value="ADD +" class="masterTooltip" title="Click to add project"/></a>
+                    </p>
+                
+            </div><!--Closes Welcome-->
+    </div>
+    
+    <!-----------------------------MODAL WINDOW----------------------------->
+    <div id="overlay">
+    	<div id="modal">
+        	<span class="close">X</span>
+            <h3 class="header">Add Project</h3>
+            <div id="add">
+            	<form id="addForm">
+                	<label>Project Name: </label>
+                    	<input name="projectname" type="text" id="projectname"/>
+                    <label>Project Description: </label>
+                    	<input name="projectDescription" type="text" id="projectDescription"/><br>
+                    <label>Project Dude Date: </label>
+                    	<input name="projectDueDate" type="text" id="projectDueDate"/><br>
+                    <label for="status">Select Status: </label>
+                    <br>
+                    
+                    
+                    
+                    <label class="mystatus">
+                    	<input type="radio" name="status" id="urgent">urgent<img src="images/btn1.jpg" width="69" height="75">
+                    </label>
+                    
+                    <label class="mystatus">
+                    	<input type="radio" name="status" id="normal">normal<img src="images/btn2.jpg" width="69" height="75">
+                    </label>
+                    <br>
+                    <label class="mystatus">
+                    	<input type="radio" name="status" id="delayed">delayed<img src="images/btn3.jpg" width="69" height="75">
+                    </label>
+                    
+                    <label class="mystatus">
+                    	<input type="radio" name="status" id="complete">complete<img src="images/btn4.jpg" width="69" height="75">
+                    </label>
+                    
+                    <br>
+                    <input name="addButton" type="button" id="addButton" value="Add"/>
+                </form>
+        	</div>
+    	</div>
+    </div>
+    
+    
+    <div id="projectsWrapper">
+    	<div id="projectlist">
+        	<h1>Current Projects</h1>
+            
+            <div class="projects">
+            </div><!--Closes Projects-->
+        </div>
+	</div>
+</div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script type="text/javascript" src="js/main.js"></script>
+</html>
