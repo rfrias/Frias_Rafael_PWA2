@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Gamers Orbit Login</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+</head>
+
+<body>
+<style>
+html {
+  width: 100%;
+  height: 100%;
+  background: url(images/GoBackground2.jpg) no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;	 
+}
+</style>
+
+<div class="wrap">
+  <a href="index.html"><img src="images/Go2.png" alt="Gamers Orbit Logo" style="width:200px;height:200px;"></a>
+
+  <h1 class="text" id="welcome">Register Now!</h1>
+        <p>And start connecting with users from around the world!</p>
+        <label for="first-name">First Name</label><br>
+        <input id="first" type="text" name="first-name" placeholder="Enter your first name" class="masterTooltip" title="Enter First Name"><br>
+        <label for="last-name">Last Name</label><br>
+        <input id="last" type="text" name="last-name" placeholder="Enter your last name" class="masterTooltip" title="Enter Last Name"><br>
+        <label for="user-name">User Name</label><br>
+        <input id="userName" type="text" name="user-name" placeholder="Enter your user name" class="masterTooltip" title="Enter Username" required><br>
+        <label for="email">Email Address</label><br>
+        <input id="email" type="text" name="email" placeholder="Enter your email address" class="masterTooltip" title="Enter Email Address" required><br>
+        <label for="confirm">Confirm Address</label><br>
+        <input id="email" type="text"name="email" placeholder="Confirm your email" class="masterTooltip" title="Confirm Email Address" required><br>
+        <label for="password">Password</label><br>
+        <input id="password" type="password" name="password" placeholder="Enter your password" class="masterTooltip" title="Enter Password" required><br>
+        <label for="pass-confirm">Confirm</label><br>
+        <input type="password" name="pass-confirm" placeholder="Confirm your password" id="registerCheckBox"class="masterTooltip" title="Confirm Password" required><br>
+        
+        <span>I agree to the <a href="#">terms</a> of Gamers Orbit Web Project</span>
+        <input type="checkbox" required><br>
+        <input type="button" id="register" value="Submit">
+        <style>
+			#register {
+	-moz-box-shadow: 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+	box-shadow: 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7fb2f0), color-stop(1, #1b75bb));
+	background:-moz-linear-gradient(top, #7fb2f0 5%, #1b75bb 100%);
+	background:-webkit-linear-gradient(top, #7fb2f0 5%, #1b75bb 100%);
+	background:-o-linear-gradient(top, #7fb2f0 5%, #1b75bb 100%);
+	background:-ms-linear-gradient(top, #7fb2f0 5%, #1b75bb 100%);
+	background:linear-gradient(to bottom, #7fb2f0 5%, #1b75bb 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fb2f0', endColorstr='#1b75bb',GradientType=0);
+	background-color:#7fb2f0;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	padding:5px 10px;
+}
+#register:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1b75bb), color-stop(1, #7fb2f0));
+	background:-moz-linear-gradient(top, #ADD5F7 5%, #1B75BB 100%);
+	background:-webkit-linear-gradient(top, #ADD5F7 5%, #1B75BB 100%);
+	background:-o-linear-gradient(top, #ADD5F7 5%, #1B75BB 100%);
+	background:-ms-linear-gradient(top, #ADD5F7 5%, #1B75BB 100%);
+	background:linear-gradient(to bottom, #ADD5F7 5%, #1B75BB 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ADD5F7', endColorstr='#1B75BB',GradientType=0);
+	background-color:#ADD5F7;
+}
+#register:active {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1b75bb), color-stop(1, #7fb2f0));
+	background:-moz-linear-gradient(top, #1B75BB 5%, #ADD5F7 100%);
+	background:-webkit-linear-gradient(top, #1B75BB 5%, #ADD5F7 100%);
+	background:-o-linear-gradient(top, #1B75BB 5%, #ADD5F7 100%);
+	background:-ms-linear-gradient(top, #1B75BB 5%, #ADD5F7 100%);
+	background:linear-gradient(to bottom, #1B75BB 5%, #ADD5F7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1B75BB', endColorstr='#ADD5F7',GradientType=0);
+	background-color:#1B75BB7;
+	border: solid 1px #000;
+}
+		</style>
+</div><!-- /wrap -->
+<!-- jquery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

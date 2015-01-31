@@ -1,13 +1,10 @@
 body {
 	 width: 960px;
-	 background: #06163B;
+	 background:url(../images/GoBackground2.jpg) no-repeat;
+	 background-size: cover;
 	 font-family: Arial, Helvetica, sans-serif;
 	 }
 #bodyText {
-		margin: 0 auto;
-		padding: 20px;
-		}
-#tooltipboc{
 		margin: 0 auto;
 		padding: 20px;
 		}
@@ -17,9 +14,6 @@ body {
 		background: #efefef;
 		border-radius: 12px;
 		padding-bottom: 50px;
-		}
-#loginForm {
-		/*transform: scale(.7,.7); still deciding*/
 		}
 #headerWrapperIndex {
 		background: #1B75BB;
@@ -188,7 +182,7 @@ input[type=radio] + img {
 		border: 2px solid transparent;
 		}
 input[type=radio]:checked + img {
-		border: 2px solid #f00;
+	border: 1px solid black;
 		}
 /*================= TOOLTIP ===============*/
 .tooltip {
